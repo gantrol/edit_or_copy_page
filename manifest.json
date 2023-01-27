@@ -1,0 +1,23 @@
+{
+  "name": "__MSG_appName__",
+  "description": "__MSG_appDesc__",
+  "default_locale": "zh_CN",
+  "action": {
+    "default_title": "TEST"
+  },
+  "manifest_version": 3,
+  "version": "0.1",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon/v1.2.png",
+    "32": "icon/v1.2@2x.png",
+    "48": "icon/v1.2@3x.png",
+    "128": "icon/v1.2@4x.png"
+  }
+}

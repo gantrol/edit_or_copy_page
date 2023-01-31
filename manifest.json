@@ -6,10 +6,11 @@
     "default_title": "TEST"
   },
   "manifest_version": 3,
-  "version": "0.1.1",
+  "version": "0.1.2",
   "permissions": [
     "activeTab",
-    "scripting"
+    "scripting",
+    "notifications"
   ],
   "background": {
     "service_worker": "background.js"

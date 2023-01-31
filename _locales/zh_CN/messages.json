@@ -6,5 +6,11 @@
     "appDesc": {
         "message": "点击图标，编辑网页，也可以复制",
         "description": "简单粗暴地编辑与复制网页\n\n有的网站已经能绕过 simple allow copy 这类插件，那就 simple allow 编辑。"
+    },
+    "banTitle": {
+        "message": "浏览器不给权限"
+    },
+    "banMessage": {
+        "message": "浏览器不给chrome:// 或插件中心网站的相关权限"
     }
 }

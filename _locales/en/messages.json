@@ -6,5 +6,11 @@
     "appDesc": {
         "message": "Edit or Copy WebPage by one click",
         "description": "Edit or Copy WebPage by one click"
+    },
+    "banTitle": {
+        "message": "Browser bans to edit such a page"
+    },
+    "banMessage": {
+        "message": "Browser bans to edit such a page like chrome:// or extension webstore"
     }
 }

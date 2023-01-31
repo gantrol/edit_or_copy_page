@@ -6,8 +6,8 @@ const pageEditable = (isEditable) => {
 
 chrome.action.onClicked.addListener(async (tab) => {
   // 由于浏览器限制，不能访问这些开头的链接
-  if(!(tab.url.includes("chrome://") || tab.url.includes("edge://"))) {
-    let text = await chrome.action.getBadgeText({tabId: tab.id});
+  if (!(tab.url.includes("chrome://") || tab.url.includes("edge://"))) {
+    let text = await chrome.action.getBadgeText({ tabId: tab.id });
     text = text ? text : '';
 
     let isEditable = text === on;
@@ -18,9 +18,12 @@ chrome.action.onClicked.addListener(async (tab) => {
     }
     isEditable = !isEditable;
 
-    chrome.action.setBadgeText({tabId: tab.id, text: text}); 
+    chrome.action.setBadgeText({ tabId: tab.id, text: text });
     chrome.scripting.executeScript({
-      target: { tabId: tab.id },
+      target: {
+        tabId: tab.id,
+        allFrames: true,
+      },
       function: pageEditable,
       args: [isEditable]
     });

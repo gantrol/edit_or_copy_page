@@ -15,9 +15,13 @@ https://user-images.githubusercontent.com/31330732/215073182-990f4eb7-ae30-4914-
 
 ## 安装方式
 
+### Edge商店安装
+
+点击[这个链接](https://microsoftedge.microsoft.com/addons/detail/网页复制或编辑/ehmfikmlcglfegkibkabbddipogboeib) 或仓库右侧主页；
+
 ### Chrome商店安装
 
-点击[这个链接](https://chrome.google.com/webstore/detail/网页复制或编辑/mhgmmefflhakaapjkpkcgpomlobflnea) 或仓库右侧主页；
+点击[这个链接](https://chrome.google.com/webstore/detail/网页复制或编辑/mhgmmefflhakaapjkpkcgpomlobflnea)
 
 点击`添加至Chrome`即可。
 

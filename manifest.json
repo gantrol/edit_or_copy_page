@@ -15,6 +15,12 @@
   "background": {
     "service_worker": "background.js"
   },
+  "content_scripts": [
+    {
+      "matches": ["*://yiyan.baidu.com/*"],
+      "js": ["content.js"]
+    }
+  ],
   "icons": {
     "16": "icon/v1.2.png",
     "32": "icon/v1.2@2x.png",
